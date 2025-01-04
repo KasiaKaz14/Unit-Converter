@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="converter" />
+    <title>Converter</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="main-content">
+      <h1>Unit Converter</h1>
+      <section class="data">
+        <input type="number" placeholder="Type a number here.." />
+        <select name="unit" id="unit">
+          <option value="kmtomile" id="kmtomile">Kilometers to Miles</option>
+          <option value="miletokm" id="miletokm">Miles to Kilometers</option>
+        </select>
+        <button type="button" id="button">Convert</button>
+      </section>
+      <section class="result">
+        <p id="outcome">Wynik:</p>
+      </section>
+    </section>
+    <script src="./converter.js"></script>
+  </body>
+</html>

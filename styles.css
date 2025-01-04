@@ -1,0 +1,57 @@
+.main-content {
+  background-color: aqua;
+  width: 1200px;
+  height: 600px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+section h1 {
+  background-color: white;
+  width: 400px;
+  font-size: 35px;
+  display: inline-block;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section input,
+section select,
+section button {
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+section button {
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.data {
+  margin: 35px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 15px;
+}
+
+.result p {
+  font-size: 15px;
+  width: 200px;
+  color: white;
+  background-color: deeppink;
+  border-radius: 5px;
+  text-align: start;
+  padding: 10px 90px 10px 5px;
+  margin: 35px auto 0 auto;
+}
